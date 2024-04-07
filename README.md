@@ -29,7 +29,7 @@
    - Set up a MongoDB database to store user accounts, emergency detection data, and any other relevant information.
    - Integrate the MongoDB database with your Flask app using a library like PyMongo.
 
-Here's a high-level example of how your Flask app structure might look:
+
 
 ```
 firstaid_response_app/
