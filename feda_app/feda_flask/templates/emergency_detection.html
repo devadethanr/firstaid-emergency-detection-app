@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Emergency Detection</h1>
+<form method="post" enctype="multipart/form-data">
+    <div>
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" required>
+    </div>
+    <div>
+        <label for="symptoms">Symptoms:</label>
+        <textarea id="symptoms" name="symptoms" required></textarea>
+    </div>
+    <button type="submit">Detect Emergency</button>
+</form>
+{% endblock %}
