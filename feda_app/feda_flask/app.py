@@ -6,6 +6,7 @@ from models.sensor_data import SensorData
 from utils.cnn_model import detect_emergency
 from utils.alert_system import send_alert
 
+
 app = Flask(__name__)
 app.config.from_object('config')
 
