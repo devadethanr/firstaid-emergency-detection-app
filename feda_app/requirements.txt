@@ -1,0 +1,9 @@
+flask
+flask-login
+flask-wtf
+wtforms
+pymongo
+opencv-python
+numpy
+pillow
+gunicorn
